@@ -1,42 +1,82 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Menu icon</title>
-            <link rel="stylesheet" href="style.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
+<head>
+    <title>Yoghurt</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
 <header>
-<div class="banner">
-        <h1>Yogurt enak</h1> </div>
+    <h1>Yoghurt enak</h1>
     <nav>
-        <a href="#"><i class="fa fa-shopping-bag"></i> product</a>
-        <a href="#"><i class="fa fa-handshake-o"></i> service</a>
-        <a href="#"><i class="fa fa-headphones"></i> contact</a>
-        <a href="#"><i class="fa fa-book"></i> about</a>
+        <a href="#home"><i class="fa fa-home"></i> home</a>
+        <a href="#about"><i class="fa fa-book"></i> about</a>
+        <a href="#profile"><i class="fa fa-user"></i> profile</a>
     </nav>
 </header>
 
-<div class="main-section">
+<section class="main-section" id="home">
     <div class="content-text">
         <h1>Fermentasi pada Yogurt</h1>
-        <p>Yogurt yang asam dan kental bagus untuk kesehatan pencernaan yang dikarenakan oleh bakteri baik.</p>
-        <p>...</p>
+
+        <p class="highlight">
+            Yogurt yang asam dan kental bagus untuk kesehatan pencernaan karena mengandung bakteri baik.
+        </p>
+
+        <p class="highlight">
+            Fermentasi pada yogurt adalah proses perubahan susu menjadi yogurt menggunakan bakteri 
+            <em>Lactobacillus bulgaricus</em> dan 
+            <em>Streptococcus thermophilus</em>.
+        </p>
     </div>
-<div class="profile-card">
+</section>
+
+<section class="about-section" id="about">
+    <div class="about-container">
+        <h2>Pengertian Yoghurt</h2>
+
+        <p>
+            Yoghurt adalah susu yang difermentasi menggunakan bakteri baik yang bermanfaat 
+            bagi kesehatan pencernaan.
+        </p>
+
+        <p>
+            Proses fermentasi berlangsung selama 3–24 jam pada suhu 35°C–46°C menggunakan 
+            bakteri Lactobacillus bulgaricus dan Streptococcus thermophilus.
+        </p>
+
+        <p>
+            Yoghurt kaya akan kalsium, protein, dan probiotik yang membantu menjaga 
+            kesehatan tubuh dan sistem imun.
+        </p>
+    </div>
+</section>
+
+<section id="profile">
+    <div class="profile-card">
         <h3>PROFILE</h3>
         <hr>
+
         <div class="identity">
-            <p><strong>Nama:</strong> Atherton Liem </p>
+            <p><strong>Nama:</strong> Atherton Liem</p>
             <p><strong>Kelas:</strong> 9 - Biologi</p>
-            <p><strong>Absen:</strong> 6 </p>
+            <p><strong>Absen:</strong> 6</p>
             <p><strong>Sekolah:</strong> SMP Angela Bandung</p>
         </div>
+
         <div class="social-links">
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-tiktok"></i></a>
-            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
+
     </div>
-</div>
+</section>
+
+</body>
 </html>
